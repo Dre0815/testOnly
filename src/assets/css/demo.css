@@ -204,7 +204,7 @@
 }
 
 .fixed-plugin .adjustments-line p {
-  float: left;
+
   display: inline-block;
   margin-bottom: 0;
   font-size: 1em;
@@ -802,4 +802,42 @@
   position: relative;
   display: block;
   width: 100%;
+}
+
+
+/* add table */
+.addTable {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(3, 90, 36, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #9A9A9A;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  height: 39px;
+  margin-top: 2px;
+}
+
+.addTable:hover {
+  background-color: #f7fafa;
+}
+
+.addTable:focus {
+  border-color: #008296;
+  box-shadow: rgba(110, 173, 255, 0.5) 0 2px 5px 0;
+  outline: 0;
 }

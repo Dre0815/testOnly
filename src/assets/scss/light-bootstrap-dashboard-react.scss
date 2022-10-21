@@ -45,3 +45,9 @@
 
 // React Differences
 @import "lbdr/react-differences";
+
+//flatpickr date Time
+@import '~flatpickr/dist/flatpickr';
+body {
+    color: #666666;
+}

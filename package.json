@@ -58,8 +58,12 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.18.6",
-    "node-sass": "^7.0.3"
+    "flatpickr": "^4.6.13"
   },
+  "config": {
+    "minDate": "today"
+  },
+
   "plugins": [
     "@babel/plugin-syntax-jsx"
   ]
