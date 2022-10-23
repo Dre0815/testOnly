@@ -41,19 +41,9 @@ function getDateTime() {
        second = '0'+second;
   }   
   var dateTime = year+'/'+month+'/'+day+' '+hour+':'+minute+':'+second;   
-   return dateTime;
-
-   return (
-    <>
-      <div id="digital-clock"></div>
-    </>
-   )
+   return dateTime; 
 }
 
-// example usage: realtime clock
-setInterval(function(){
-  currentTime = getDateTime();
-  document.getElementById("digital-clock").innerHTML = currentTime;
-}, 1000);
+
 
 export default getDateTime;

@@ -1967,7 +1967,7 @@ Copyright (c) 2015 Daniel Eden
     padding: 15px 15px 10px 15px; }
   .card .card-header {
     padding: 15px 15px 0;
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     border-bottom: none !important; }
   .card .card-category,
   .card label {

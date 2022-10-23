@@ -18,18 +18,15 @@ function User() {
     <>
       <Container fluid>
         <Row>
-          <Col md="8">
+          <Col md="12">
             <Card>
-              <Card.Header>
-                <Card.Title as="h4"> </Card.Title>
-              </Card.Header>
               <Card.Body>
                 <Form>
                   <Row>
-                    <Col md="3">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '20px' }}>
+                    <Col md="2">
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}>
                       <label>Title</label>
-                        <input class="form-control" placeholder="e.g. Mr." list="titleName" type="text" id="title" onClick="myFunction()" />
+                        <input class="form-control" placeholder="e.g. Mr." list="titleName" type="text" id="title" />
                             <datalist id="titleName">
                                 <option value="Mr."/>
                                 <option value="Ms."/>
@@ -40,10 +37,8 @@ function User() {
                             </datalist>
                       </Form.Group>
                     </Col>
-                  </Row>
-                  <Row>
-                    <Col md="12">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '20px' }}>
+                    <Col md="5">
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}>
                         <label>First Name</label>
                         <Form.Control
                           defaultValue=""
@@ -52,10 +47,8 @@ function User() {
                         ></Form.Control>
                       </Form.Group>
                     </Col>
-                  </Row>
-                  <Row>
-                    <Col md="12">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '20px' }}>
+                    <Col md="5">
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}>
                         <label>Last Name</label>
                         <Form.Control
                           defaultValue=""
@@ -65,26 +58,24 @@ function User() {
                       </Form.Group>
                     </Col>
                   </Row>
+                  
                   <Row>
-                    
-                  </Row>
-                  <Row>
-                    <Col className="pr-1" md="6">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '30px' }}>
+                    <Col md="6">
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}>
                         <label>Email Address</label>
                         <Form.Control
                           defaultValue=""
-                          placeholder="Enter email e.g. you@gmail.com"
+                          placeholder="e.g. you@gmail.com"
                           type="text"
                         ></Form.Control>
                       </Form.Group>
                     </Col>
-                    <Col className="pr-1" md="6">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '30px' }}>
+                    <Col md="6">
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}>
                         <label>Contact Number</label>
                         <Form.Control
                           defaultValue=""
-                          placeholder="Enter contact e.g. 0081 xxxxx"
+                          placeholder="e.g. 0081 xxxxx"
                           type="text"
                         ></Form.Control>
                       </Form.Group>
@@ -93,7 +84,7 @@ function User() {
 
                   <Row>
                     <Col md="12">
-                      <Form.Group style={{ marginLeft: '20px', marginRight: '20px'}} > 
+                      <Form.Group style={{ marginLeft: '0px', marginRight: '0px' }}> 
                       <br></br>
                       <label>Notes</label>
                       <br></br>
@@ -104,12 +95,12 @@ function User() {
                   
                   <br />
                   <Button class="alignleft" className="btn-fill pull-right clearfix" id="clear" type="button" variant="info"
-                  style={{marginLeft: '25px', marginRight: '25px', width: '100px', float: 'right'}}>
+                  style={{marginLeft: '10px', marginRight: '10px', width: '100px', float: 'right'}}>
                     Cancel
                   </Button>
 
                   <Button class="alignleft" className="btn-fill pull-right clearfix" id="submit" type="submit" variant="info"
-                  style={{marginLeft: '25px', marginRight: '25px', width: '100px', float: 'right'}}>
+                  style={{marginLeft: '10px', marginRight: '10px', width: '100px', float: 'right'}}>
                     Save
                   </Button>
 
